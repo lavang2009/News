@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" role="img" aria-label="hero.svg">
+<defs>
+  <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0%" stop-color="#132f2b"/>
+    <stop offset="100%" stop-color="#0f1115"/>
+  </linearGradient>
+</defs>
+<rect width="1200" height="800" fill="url(#g)"/>
+<circle cx="940" cy="140" r="150" fill="rgba(255,255,255,0.08)"/>
+<circle cx="240" cy="640" r="190" fill="rgba(255,255,255,0.06)"/>
+<path d="M0 620 C220 560 360 720 560 640 C760 560 900 700 1200 620 L1200 800 L0 800 Z" fill="rgba(255,255,255,0.12)"/>
+<path d="M0 560 C220 500 360 660 560 580 C760 500 900 640 1200 560" fill="none" stroke="rgba(255,255,255,0.2)" stroke-width="8"/>
+<text x="72" y="118" font-family="Arial, sans-serif" font-size="52" fill="white" opacity="0.95">hero</text>
+<text x="72" y="176" font-family="Arial, sans-serif" font-size="26" fill="white" opacity="0.8">H’Mông Việt News</text>
+</svg>

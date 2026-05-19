@@ -1,0 +1,16 @@
+{
+  "name": "H’Mông Việt News",
+  "short_name": "H’Mông News",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f1115",
+  "theme_color": "#b3262d",
+  "description": "Tin tức về người H’Mông Việt Nam và văn hóa truyền thống.",
+  "icons": [
+    {
+      "src": "/icons/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

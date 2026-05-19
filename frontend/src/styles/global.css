@@ -1279,3 +1279,71 @@ body.scrolled .site-header { box-shadow: var(--shadow); }
   .brand strong { font-size: 16px; }
   .brand-mark { width: 46px; height: 46px; border-radius: 16px; }
 }
+
+/* ===== FIX LAYOUT NEWS HOME ===== */
+.app-shell{
+  display:block;
+  min-height:100vh;
+}
+
+.sidebar{
+  width:100%;
+  min-width:0;
+  position:sticky;
+  top:0;
+  z-index:60;
+  height:auto;
+  padding:16px 0;
+  border-right:0;
+  border-bottom:1px solid var(--line);
+  background: color-mix(in srgb, var(--bg) 92%, transparent);
+  backdrop-filter: blur(18px);
+}
+
+.sidebar .brand{
+  width:min(1180px, calc(100% - 32px));
+  margin:0 auto 12px;
+}
+
+.sidebar nav{
+  width:min(1180px, calc(100% - 32px));
+  margin:0 auto;
+  display:flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+  gap:10px;
+  align-items:center;
+}
+
+.sidebar nav a{
+  white-space:nowrap;
+  padding:10px 14px;
+  border-radius:999px;
+  border:1px solid transparent;
+}
+
+.sidebar nav a:hover,
+.sidebar nav a.active{
+  border-color:rgba(179,38,45,.22);
+  background:rgba(179,38,45,.16);
+}
+
+main{
+  width:100%;
+  padding:0 0 64px;
+}
+
+/* phần nội dung chính canh giữa đẹp hơn */
+.hero,
+.grid-home,
+.search-form,
+.topbar,
+.header-main,
+.footer-grid,
+.footer-bottom,
+.article-layout,
+.contact-grid,
+.profile-grid{
+  width:min(1180px, calc(100% - 32px));
+  margin:0 auto;
+}
